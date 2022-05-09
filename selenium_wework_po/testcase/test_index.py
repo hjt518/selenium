@@ -20,3 +20,4 @@ class TestIndex():
 
     def test_send_message(self):
         self.login.goto_index().goto_message_send().send_message(app='武汉')
+        print('123')
